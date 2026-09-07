@@ -51,7 +51,7 @@ from datafun.utils_data import inspect
 
 # === CONFIGURE LOGGER ONCE FOR THE APPLICATION ===
 
-LOG: logging.Logger = get_logger("P02", level="DEBUG")
+LOG: logging.Logger = get_logger("P02", level="INFO")
 
 # === DECLARE GLOBAL CONSTANTS ===
 
