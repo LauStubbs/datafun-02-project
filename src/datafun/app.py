@@ -153,6 +153,11 @@ def main() -> None:
 
     df: pd.DataFrame = pd.read_csv(DATA_FILE_PATH)
 
+    # My analysis: count penguins by species
+    species_counts = df["species"].value_counts()
+    print("\nPenguin count by species:")
+    print(species_counts)
+
     LOG.info("Data loaded successfully.")
 
     LOG.info("-------------------------------")
